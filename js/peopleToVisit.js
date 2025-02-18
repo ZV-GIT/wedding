@@ -68,4 +68,7 @@ img[9].addEventListener('mouseover', function() { fullPeople(9); });
 img[9].addEventListener('mouseleave', function() { nullPeople(9); });
 img[9].addEventListener('mousedown', function() { flag = 1; choiceCountPeople(9); });
 
-
+window.addEventListener("scroll", event => {
+    event.preventDefault();
+    window.scrollTo(0, 0);
+});
