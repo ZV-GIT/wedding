@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 .section0 {
     transition: all .5s;
     position: relative;
@@ -104,7 +108,7 @@ p {
 } */
 
 .img1 img {
-    position: fixed;
+    position: absolute;
     bottom: -100px;
     left: -26px;
     transform: rotate(383deg);
@@ -112,7 +116,7 @@ p {
 }
 
 .img3 img {
-    position: fixed;
+    position: absolute;
     bottom: -107px;
     right: 56px;
     transform: rotate(18deg);
@@ -121,7 +125,7 @@ p {
 }
 
 .img4 img {
-    position: fixed;
+    position: absolute;
     top: -147px;
     right: -145px;
     transform: rotate(-127deg);
@@ -130,7 +134,7 @@ p {
 }
 
 .img5 img {
-    position: fixed;
+    position: absolute;
     top: -144px;
     left: -152px;
     transform: rotate(-235deg);
