@@ -381,7 +381,7 @@ p {
     position: absolute;
     margin-left: -55px;
     /* font-family: 'Times New Roman', Times, serif */
-    font-family: "Arial Unicode MS", "Lucida Sans Unicode", "DejaVu Sans", "Quivira", "Symbola", "Code2000", ; 
+    font-family: "Arial Unicode MS", "Lucida Sans Unicode", "DejaVu Sans", "Quivira", "Symbola", "Code2000", serif; 
 }
 
 .section1-inner__p1::before { content: '1 \2B62'; }
