@@ -1,0 +1,166 @@
+/* 320 x 568 - айфон 5 */
+@media (max-width: 920px) {
+    .section6-inner__buttons, .section7-inner__buttons, .section10-inner__buttons, .section11-inner__buttons,
+    .section102-inner__buttons, .section112-inner__buttons, .section122-inner__buttons, .section132-inner__buttons,
+    .section142-inner__buttons, .section152-inner__buttons, .section162-inner__buttons,
+    .section172-inner__buttons, .section182-inner__buttons,
+    .section103-inner__buttons, .section113-inner__buttons, .section123-inner__buttons, .section133-inner__buttons,
+    .section143-inner__buttons, .section153-inner__buttons, .section163-inner__buttons,
+    .section173-inner__buttons, .section183-inner__buttons {
+        display: grid;
+        grid: 48% 48% / 48% 48%;
+        grid-gap: 10px;
+    }
+
+    .section6-inner__button, .section7-inner__button, .section10-inner__button, .section11-inner__button,
+    .section102-inner__button, .section112-inner__button, .section122-inner__button, .section132-inner__button,
+    .section142-inner__button, .section152-inner__button, .section162-inner__button,
+    .section172-inner__button, .section182-inner__button,
+    .section103-inner__button, .section113-inner__button, .section123-inner__button, .section133-inner__button,
+    .section143-inner__button, .section153-inner__button, .section163-inner__button,
+    .section173-inner__button, .section183-inner__button {
+        margin: 0;
+    }
+}
+
+@media (max-width: 890px) {
+
+    .section4-inner-imgs {
+        display: grid;
+        grid: 48% / 20% 20% 20% 20% 20%;
+    }
+
+    .section6-inner__button div img, .section7-inner__button div img, .section10-inner__button div img, .section11-inner__button div img,
+    .section102-inner__button div img, .section112-inner__button div img, .section122-inner__button div img, .section132-inner__button div img,
+    .section142-inner__button div img, .section152-inner__button div img, .section162-inner__button div img,
+    .section172-inner__button div img, .section182-inner__button div img, 
+    .section103-inner__button div img, .section113-inner__button div img, .section123-inner__button div img, .section133-inner__button div img,
+    .section143-inner__button div img, .section153-inner__button div img, .section163-inner__button div img,
+    .section173-inner__button div img, .section183-inner__button div img {
+        width: 100px;
+    }
+    
+}
+
+@media (max-width: 750px) {
+    .br {
+        display: none;
+    }
+    .section0-inner img {
+        width: 250px;
+    }
+    .section0-inner__p1 {
+        font-size: 20px;
+    }
+    .section0-inner__p2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 750px) {
+    .section0-inner img {
+        width: 210px;
+    }
+    .section0-inner__p3 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 620px) {
+    .section6-inner__button div img, .section7-inner__button div img, .section10-inner__button div img, .section11-inner__button div img,
+    .section102-inner__button div img, .section112-inner__button div img, .section122-inner__button div img, .section132-inner__button div img,
+    .section142-inner__button div img, .section152-inner__button div img, .section162-inner__button div img,
+    .section172-inner__button div img, .section182-inner__button div img, 
+    .section103-inner__button div img, .section113-inner__button div img, .section123-inner__button div img, .section133-inner__button div img,
+    .section143-inner__button div img, .section153-inner__button div img, .section163-inner__button div img,
+    .section173-inner__button div img, .section183-inner__button div img {
+        width: 80px;
+    }
+
+    .section1-inner__p1, .section2-inner__p1, .section3-inner__p1, .section4-inner__p1, 
+    .section5-inner__p1, .section6-inner__p1, .section7-inner__p1, .section8-inner__p1, 
+    .section9-inner__p1, .section-end1-inner__p1, .section-end1-inner__p2, .section-end2-inner__p1, 
+    .section-end2-inner__p2, .section10-inner__p1, .section11-inner__p1,
+    .section101-inner__p1, .section102-inner__p1, .section103-inner__p1,
+    .section111-inner__p1, .section112-inner__p1, .section113-inner__p1,
+    .section121-inner__p1, .section122-inner__p1, .section123-inner__p1,
+    .section131-inner__p1, .section132-inner__p1, .section133-inner__p1,
+    .section141-inner__p1, .section142-inner__p1, .section143-inner__p1,
+    .section151-inner__p1, .section152-inner__p1, .section153-inner__p1,
+    .section161-inner__p1, .section162-inner__p1, .section163-inner__p1,
+    .section171-inner__p1, .section172-inner__p1, .section173-inner__p1,
+    .section181-inner__p1, .section182-inner__p1, .section183-inner__p1 {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .section1-inner__input, .section2-inner__input, .section6-inner__button, 
+    .section7-inner__button, .section9-inner__input, .section10-inner__button, 
+    .section11-inner__button,
+    .section101-inner__input, .section111-inner__input, .section121-inner__input, .section131-inner__input,
+    .section141-inner__input, .section151-inner__input, .section161-inner__input,
+    .section171-inner__input, .section181-inner__input {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 550px) {
+    .section1-inner__buttons {
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        left: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .section0-inner__button-forward {
+        flex-grow: 1;
+    }
+    .section0-inner__button-back, .section0-inner__button-forward {
+        margin: 10px;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .section0-inner__button-back {
+        margin-right: 5px;
+    }
+    .section0-inner__button-forward {
+        margin-left: 5px;
+    }
+
+    .section1-inner__p1::before, .section2-inner__p1::before, .section3-inner__p1::before, .section4-inner__p1::before, .section5-inner__p1::before, .section6-inner__p1::before, .section7-inner__p1::before, .section8-inner__p1::before, .section101-inner__p1::before, .section102-inner__p1::before, .section103-inner__p1::before, .section111-inner__p1::before, .section112-inner__p1::before, .section113-inner__p1::before, .section121-inner__p1::before, .section122-inner__p1::before, .section123-inner__p1::before, .section131-inner__p1::before, .section132-inner__p1::before, .section133-inner__p1::before, .section141-inner__p1::before, .section142-inner__p1::before, .section143-inner__p1::before, .section151-inner__p1::before, .section152-inner__p1::before, .section153-inner__p1::before, .section161-inner__p1::before, .section162-inner__p1::before, .section163-inner__p1::before, .section171-inner__p1::before, .section172-inner__p1::before, .section173-inner__p1::before, .section181-inner__p1::before, .section182-inner__p1::before, .section183-inner__p1::before {
+        margin-left: 0px;
+        margin-top: -35px;
+        color: #ae1747;
+    }
+
+    .section1, .section2, .section3, .section4, 
+    .section5, .section6, .section7, .section8, 
+    .section9, .section10, 
+    .section11,
+    .section101, .section102, .section103,
+    .section111, .section112, .section113,
+    .section121, .section122, .section123,
+    .section131, .section132, .section133,
+    .section141, .section142, .section143,
+    .section151, .section152, .section153,
+    .section161, .section162, .section163,
+    .section171, .section172, .section173,
+    .section181, .section182, .section183 {
+        padding: 0 10px;
+    }
+
+    .section3-inner__button-yes, .section3-inner__button-no {
+        height: 120px;
+    }
+
+    .section3-inner__button-inner img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 360px) {
+    .section4-inner img, .section4-inner__img {
+        width: 58px;
+    }
+}

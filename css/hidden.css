@@ -1,0 +1,7 @@
+.btn4-f, .btn6-f, .btn7-f, .btn102-f, .btn103-f, .btn112-f, .btn113-f,
+.btn122-f, .btn123-f, .btn132-f, .btn133-f, .btn142-f, .btn143-f,
+.btn152-f, .btn153-f, .btn162-f, .btn163-f, .btn172-f, .btn173-f,
+.btn182-f, .btn183-f {
+    opacity: 0;
+    pointer-events: none;
+}
