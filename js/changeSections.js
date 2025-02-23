@@ -249,15 +249,9 @@ document.querySelector('.btn4-f').addEventListener('click', () => {
     forwardQuestion ('.section4', '.section5');
 });
 
-
-
 document.querySelector('.btn5-f').addEventListener('click', () => {
     forwardQuestion ('.section5', '.section6');
 });
-
-// background-color:rgba(174, 23, 73, 0.15);
-
-
 
 document.querySelector('.btn6-f1').addEventListener('click', () => {
     defaultBackgraundColor('.btn6-f1', '.btn6-f2', '.btn6-f3', '.btn6-f4', '.btn6-f1');
@@ -325,13 +319,10 @@ document.querySelector('.form3').addEventListener('submit', function(event) {
         forwardQuestion ('.section101', '.section102');
         FIO1 = document.querySelector('.section101-inner__input').value;
         console.log(FIO1);
+        document.querySelector('.fio1-1').textContent = FIO1;
+        document.querySelector('.fio1-2').textContent = FIO1;
     }
 });
-
-// document.querySelector('.btn101-f').addEventListener('click', () => {
-//     forwardQuestion ('.section102', '.section103');
-//     FIO1 = document.querySelector('.section101-inner__input').value;
-// });
 
 document.querySelector('.btn102-f1').addEventListener('click', () => {
     defaultBackgraundColor('.btn102-f1', '.btn102-f2', '.btn102-f3', '.btn102-f4', '.btn102-f1');
@@ -400,6 +391,8 @@ document.querySelector('.form4').addEventListener('submit', function(event) {
         event.preventDefault();
         forwardQuestion ('.section111', '.section112');
         FIO2 = document.querySelector('.section111-inner__input').value;
+        document.querySelector('.fio2-1').textContent = FIO2;
+        document.querySelector('.fio2-2').textContent = FIO2;
     }
 });
 
@@ -458,6 +451,8 @@ document.querySelector('.form5').addEventListener('submit', function(event) {
         event.preventDefault();
         forwardQuestion ('.section121', '.section122');
         FIO3 = document.querySelector('.section121-inner__input').value;
+        document.querySelector('.fio3-1').textContent = FIO3;
+        document.querySelector('.fio3-2').textContent = FIO3;
     }
 });
 
@@ -515,6 +510,8 @@ document.querySelector('.form6').addEventListener('submit', function(event) {
         event.preventDefault();
         forwardQuestion ('.section131', '.section132');
         FIO4 = document.querySelector('.section131-inner__input').value;
+        document.querySelector('.fio4-1').textContent = FIO4;
+        document.querySelector('.fio4-2').textContent = FIO4;
     }
 });
 
@@ -573,6 +570,8 @@ document.querySelector('.form7').addEventListener('submit', function(event) {
         event.preventDefault();
         forwardQuestion ('.section141', '.section142');
         FIO5 = document.querySelector('.section141-inner__input').value;
+        document.querySelector('.fio5-1').textContent = FIO5;
+        document.querySelector('.fio5-2').textContent = FIO5;
     }
 });
 
@@ -631,6 +630,8 @@ document.querySelector('.form8').addEventListener('submit', function(event) {
         event.preventDefault();
         forwardQuestion ('.section151', '.section152');
         FIO6 = document.querySelector('.section151-inner__input').value;
+        document.querySelector('.fio6-1').textContent = FIO6;
+        document.querySelector('.fio6-2').textContent = FIO6;
     }
 });
 
@@ -689,6 +690,8 @@ document.querySelector('.form9').addEventListener('submit', function(event) {
         event.preventDefault();
         forwardQuestion ('.section161', '.section162');
         FIO7 = document.querySelector('.section161-inner__input').value;
+        document.querySelector('.fio7-1').textContent = FIO7;
+        document.querySelector('.fio7-2').textContent = FIO7;
     }
 });
 
@@ -747,6 +750,8 @@ document.querySelector('.form10').addEventListener('submit', function(event) {
         event.preventDefault();
         forwardQuestion ('.section171', '.section172');
         FIO8 = document.querySelector('.section171-inner__input').value;
+        document.querySelector('.fio8-1').textContent = FIO8;
+        document.querySelector('.fio8-2').textContent = FIO8;
     }
 });
 
@@ -797,9 +802,6 @@ document.querySelector('.btn173-f4').addEventListener('click', () => {
 document.querySelector('.btn173-f').addEventListener('click', () => {
     checkCountPeople(9, '.section173', '.section181');
 });
-
-
-
 // 9
 
 document.querySelector('.form11').addEventListener('submit', function(event) {
@@ -807,6 +809,8 @@ document.querySelector('.form11').addEventListener('submit', function(event) {
         event.preventDefault();
         forwardQuestion ('.section181', '.section182');
         FIO9 = document.querySelector('.section181-inner__input').value;
+        document.querySelector('.fio9-1').textContent = FIO9;
+        document.querySelector('.fio9-2').textContent = FIO9;
     }
 });
 
