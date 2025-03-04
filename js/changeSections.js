@@ -1,46 +1,46 @@
 var 
-MainFIO,            //ФИО главного гостя 
-Email,              //Email главного гостя
-YESNO,              //Идёт или не идёт на свадьбу
-countPeople = 0,    //Количество гостей
-MainEat,            //Блюдо главного гостя
-MainDrink,           //Напиток главного гостя
+MainFIO = "",            //ФИО главного гостя 
+Email = "",              //Email главного гостя
+YESNO,                   //Идёт или не идёт на свадьбу
+countPeople = 0,         //Количество гостей
+MainEat = "",            //Блюдо главного гостя
+MainDrink = "",          //Напиток главного гостя
 
-FIO1,               //ФИО гостя №1
-Eat1,               //Еда гостя №1
-Drink1,             //Напиток гостя №1
+FIO1 = "",               //ФИО гостя №1
+Eat1 = "",               //Еда гостя №1
+Drink1 = "",             //Напиток гостя №1
 
-FIO2,               //ФИО гостя №2
-Eat2,               //Еда гостя №2
-Drink2,             //Напиток гостя №2
+FIO2 = "",               //ФИО гостя №2
+Eat2 = "",               //Еда гостя №2
+Drink2 = "",             //Напиток гостя №2
 
-FIO3,               //ФИО гостя №3
-Eat3,               //Еда гостя №3
-Drink3,             //Напиток гостя №3
+FIO3 = "",               //ФИО гостя №3
+Eat3 = "",               //Еда гостя №3
+Drink3 = "",             //Напиток гостя №3
 
-FIO4,               //ФИО гостя №4
-Eat4,               //Еда гостя №4
-Drink4,             //Напиток гостя №4
+FIO4 = "",               //ФИО гостя №4
+Eat4 = "",               //Еда гостя №4
+Drink4 = "",             //Напиток гостя №4
 
-FIO5,               //ФИО гостя №5
-Eat5,               //Еда гостя №5
-Drink5,             //Напиток гостя №5
+FIO5 = "",               //ФИО гостя №5
+Eat5 = "",               //Еда гостя №5
+Drink5 = "",             //Напиток гостя №5
 
-FIO6,               //ФИО гостя №6
-Eat6,               //Еда гостя №6
-Drink6,             //Напиток гостя №6
+FIO6 = "",               //ФИО гостя №6
+Eat6 = "",               //Еда гостя №6
+Drink6 = "",             //Напиток гостя №6
 
-FIO7,               //ФИО гостя №7
-Eat7,               //Еда гостя №7
-Drink7,             //Напиток гостя №7
+FIO7 = "",               //ФИО гостя №7
+Eat7 = "",               //Еда гостя №7
+Drink7 = "",             //Напиток гостя №7
 
-FIO8,               //ФИО гостя №8
-Eat8,               //Еда гостя №8
-Drink8,             //Напиток гостя №8
+FIO8 = "",               //ФИО гостя №8
+Eat8 = "",               //Еда гостя №8
+Drink8 = "",             //Напиток гостя №8
 
-FIO9,               //ФИО гостя №9
-Eat9,               //Еда гостя №9
-Drink9;             //Напиток гостя №9
+FIO9 = "",               //ФИО гостя №9
+Eat9 = "",               //Еда гостя №9
+Drink9 = "";             //Напиток гостя №9
 
 function func1(stringClass1) {
     document.querySelector(stringClass1).style.display = "none"
@@ -106,6 +106,44 @@ function checkCountPeople(count, currentSection, nextSection) {
         console.log(FIO9)               //ФИО гостя №9
         console.log(Eat9)               //Еда гостя №9
         console.log(Drink9)             //Напиток гостя №9
+        // https://script.google.com/macros/s/AKfycbzTESb4ZcRYUi9up6s5TJEjtRwrllVNRdiQuG4Crs4DxKBav6K1OHSLDz-ZLTuk6Xif/exec?p1=MainFIO&p2=Email&p3=YESNO&p4=MainEat&p5=MainDrink
+
+        document.getElementById("POST-MainFIO").value = MainFIO;
+        document.getElementById("POST-Email").value = Email;
+        document.getElementById("POST-YESNO").value = "Да";
+        document.getElementById("POST-MainEat").value = MainEat;
+        document.getElementById("POST-MainDrink").value = MainDrink;
+        document.getElementById("POST-FIO1").value = FIO1 ;
+        document.getElementById("POST-Eat1").value = Eat1 ;
+        document.getElementById("POST-Drink1").value = Drink1;
+        document.getElementById("POST-FIO2").value = FIO2;
+        document.getElementById("POST-Eat2").value = Eat2;
+        document.getElementById("POST-Drink2").value = Drink2;
+        document.getElementById("POST-FIO3").value = FIO3;
+        document.getElementById("POST-Eat3").value = Eat3;
+        document.getElementById("POST-Drink3").value = Drink3;
+        document.getElementById("POST-FIO4").value = FIO4;
+        document.getElementById("POST-Eat4").value = Eat4;
+        document.getElementById("POST-Drink4").value = Drink4;
+        document.getElementById("POST-FIO5").value = FIO5;
+        document.getElementById("POST-Eat5").value = Eat5;
+        document.getElementById("POST-Drink5").value = Drink5;
+        document.getElementById("POST-FIO6").value = FIO6;
+        document.getElementById("POST-Eat6").value = Eat6;
+        document.getElementById("POST-Drink6").value = Drink6;
+        document.getElementById("POST-FIO7").value = FIO7;
+        document.getElementById("POST-Eat7").value = Eat7;
+        document.getElementById("POST-Drink7").value = Drink7;
+        document.getElementById("POST-FIO8").value = FIO8;
+        document.getElementById("POST-Eat8").value = Eat8;
+        document.getElementById("POST-Drink8").value = Drink8;
+        document.getElementById("POST-FIO9").value = FIO9;
+        document.getElementById("POST-Eat9").value = Eat9;
+        document.getElementById("POST-Drink9").value = Drink9;
+
+
+        document.getElementById("g-gorm").click();
+
     } else {
         forwardQuestion (currentSection, nextSection);
     }
@@ -173,6 +211,10 @@ document.querySelector('.btn3-fgood').addEventListener('click', () => {
 document.querySelector('.btn3-fbad').addEventListener('click', () => {
     forwardQuestion ('.section3', '.section-end2');
     YESNO = 0;
+    document.getElementById("POST-MainFIO").value = MainFIO;
+    document.getElementById("POST-Email").value = Email;
+    document.getElementById("POST-YESNO").value = "Нет";
+    document.getElementById("g-gorm").click();
 });
 
 document.querySelector('.btn3-f').addEventListener('click', () => {
